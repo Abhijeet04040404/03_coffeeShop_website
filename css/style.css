@@ -1,0 +1,340 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-size: 34px;
+	font-weight: bolder;
+}
+h3{
+	font-size: 30px;
+	font-weight: bolder;
+	
+}
+nav .top-navbar{
+	display: flex;
+	align-items: end;
+	justify-content: end;	
+}	
+
+nav .navbar-home-logo{
+	height: 55px;
+	width: 55px;
+}
+
+.first-bg-image-container{
+	background-image: url("../images/back-bg1.jpg");
+	width:100%;
+	height:500px;
+	display: flex;
+	align-items:center;
+	background-size:cover;
+    background-position: 70% 30%;
+}
+
+.first-bg-image-container .bg-image-contant{
+	color: white;
+    background-color: #00000099;
+    width: 350px;
+    border-radius: 15px;
+    padding: 30px;
+	transition: all .2s;
+	cursor:pointer;
+}
+
+.first-bg-image-container .bg-image-contant:hover{
+	box-shadow: 0px 0px 8px 10px white;
+	transform: scale3d(1.06, 1.06, 2);
+}
+
+button.btn-done {
+    font-size: 17px;
+    color: white;
+    border: groove white;
+    border-radius: 20px;
+    width: 140px;
+}
+button.btn-done:hover {
+    color: green;
+    font-weight: bold;
+    background-color: white;
+    border: green solid 3px;
+}
+	
+.first-bg-image-container .bg-image-contant a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.about-coffee-cake-container{
+	margin:20px 150px 20px;
+	
+}
+
+.about-coffee-cake-container .img-coffee-cake-left{
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+}
+
+.about-coffee-cake-container .img-coffee-cake-right{
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+
+.about-coffee-cake-container .middle-section{
+    margin:20px 0px 20px;
+    font-weight:600;
+}
+
+.about-coffee-cake-container .card-section{
+	background-color: #9539188c;
+    border-radius: 20px;
+    color: white;
+	font-weight: 600;
+	margin: 10px;
+    padding: 20px;
+}
+
+.second-bg-image-container{
+	background-image: url("../images/back-bg2.jpg");
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    background-size:cover;
+    background-position: 0px 100%;
+}
+
+div .forth-section{
+	display:flex;
+}
+.forth-section-cards {
+    border-radius: 15px;
+    box-shadow: #757575 0px 8px 20px 7px;
+    padding: 30px;
+    margin: -125px auto 0px;
+    background: white;
+	margin-bottom:50px;
+}
+
+.forth-section .forth-section-cards > h3{
+    color: #a1887f
+}
+
+.forth-section .forth-section-cards p {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.forth-section .forth-section-cards i{
+	font-size:12px;
+}
+
+.about-populer-dishes-container {
+    background-color: #6f5635;
+	padding: 30px 0px 30px;
+}
+
+.fifth-section-content {
+   margin: 10px 0px 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.fifth-section-content img{
+	border-radius: 15px;
+}
+
+.fifth-section-content p{
+    color: #bb7c27;
+    font-weight: 700;
+    margin: 5px 0px 10px 0px;
+}
+
+.fifth-section-content small {
+    font-size: 70%;
+    font-weight: 500;
+}
+
+.fifth-section-content span{
+	font-size:20px;
+    font-weight: 700;
+    color: #bb7c27;
+	padding:0px;
+}	
+	
+.fifth-section-content .btn-buy{
+	font-size: 12px;
+	width:100px;
+    font-weight: 700;
+    background-color: #bb7c27;
+    border-radius: 25px;
+    color: white;
+	float:right;
+	margin: 5px 0px 0px 0px;
+}	
+
+.sixth-section{
+	background-color:#000000d9;
+    height: 650px;
+    width: 100%;
+}
+
+.sixth-section img{
+	width:100%;
+	height:600px;
+	padding: 70px 120px 150px
+}
+
+.sixth-section .bg-kitchen-img{
+    z-index: 5;
+    position: relative;
+}
+
+.sixth-section .bg-kitchen-img::before{
+   content: " ";
+    width: 300px;
+    background-color: #b49c77;
+    height: 300px;
+    position: absolute;
+    left: 85px;
+    z-index: -5;
+    bottom: 115px;
+    border-radius: 20px;
+}
+
+.sixth-section .bg-kitchen-img::after{
+    content: " ";
+    width: 300px;
+    background-color: #b49c77;
+    height: 300px;
+    position: absolute;
+    right: 85px;
+    top: 35px;
+    z-index: -5;
+    border-radius: 20px;
+}
+
+.bg-kitchen-contant{
+    position: absolute;
+    width: 350px;
+    bottom: 0px;
+    color: black;
+    right: 150px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.bg-kitchen-contant>h2{
+   color:#bb7c27
+}
+
+.bg-kitchen-contant>p{
+	font-size:13px;
+}	
+
+.third-bg-image-container{
+	background-image: url("../images/rapour-mid-back.jpg");
+	width:100%;
+	height:500px;
+	display: flex;
+	align-items:center;
+	background-size:cover;
+    background-position: 70% 30%;
+}
+
+.third-bg-image-container .card-section {
+    color: white;
+    background: #00000078;
+    margin: 10px;
+    padding: 30px 10px 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.third-bg-image-container .card-section i{
+     margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.cake-dessert-cafe-gallery img{
+	padding-bottom:30px;
+}	
+
+.btn-view-more{
+	width:125px;
+	font-size: 15px;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 25px;
+	border:2px #bb7c27 solid;
+}
+
+.seventh-section
+{
+	background-color:white;
+	width:100%;
+	height:800px;
+	z-index: 5;
+    position: relative;
+}
+
+.seventh-section::before{
+	width:100%;
+	content: " ";
+    background-color: #383530;
+    height: 450px;
+    position: absolute;
+    left: 0px;
+    z-index: -5;
+    bottom: 0px;
+}
+
+.img-custom{
+	width:100%;
+	height:500px;
+	border-radius:20px;
+}
+
+.seventh-section .img-div{
+	width: 100%;
+    height: 500px;
+    z-index: 5;
+    position: relative;
+    padding: 100px;
+}	
+
+.seventh-section .img-div::after{
+	content: " ";
+    width: 300px;
+    background-color: #b49c77;
+    height: 600px;
+    position: absolute;
+    right: 60px;
+    top: 55px;
+    z-index: -5;
+    border-radius: 20px;
+}
+
+.contant{
+    position: absolute;
+    width: 350px;
+    bottom: -250px;
+    color: black;
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+    left: 60px;
+}
+
+footer .contact-us-footer .btn-form-submit{
+	width:100%;
+	color:white;
+	background-color:black;
+}
+
+footer .contact-us-footer .form-custom{
+	border:0px;
+	border-bottom:2px solid black;
+	border-radius:0px;
+}
